@@ -1,0 +1,17 @@
+
+
+
+### 新增用户
+POST http://localhost:8080/api/user/add
+Content-Type: application/json
+
+{
+  "username": "张三",
+  "email": "2907227717@qq.com",
+  "nickname": "zhangsan",
+  "phone": "13423212321",
+  "password": "123456",
+  "confirmPassword": "123456",
+  "gender": 1,
+  "userType": 1
+}
