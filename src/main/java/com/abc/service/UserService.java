@@ -21,7 +21,7 @@ public class UserService {
 
     @Autowired
     private UserMapper userMapper;
-    //SpringSecurity 自带的**密码加密工具类**，用的是 BCrypt 加密算法。
+    //SpringSecurity 自带的密码加密工具类，用的是 BCrypt 加密算法。
     private final BCryptPasswordEncoder PasswordEncoder = new BCryptPasswordEncoder();
 
     /**

@@ -64,7 +64,6 @@
         </dependency>
 
 <!--        Spring Security，SpringBoot 官方安全框架：-->
-
 <!--        - 登录认证、账号密码校验-->
 <!--        - 接口权限控制（哪些接口谁能访问）-->
 <!--        - 密码加密、防跨域、csrf 防护等安全能力-->
@@ -73,7 +72,7 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
-<!--        jwt-->
+<!--jwt-->
         <dependency>
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
@@ -107,7 +106,7 @@
                     </excludes>
                 </configuration>
             </plugin>
-            <!-- 删掉了 maven-compiler-plugin！！！ -->
+
         </plugins>
     </build>
 
